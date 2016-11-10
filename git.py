@@ -21,7 +21,7 @@ else:
 #Run menu
 while True:
     try:
-        subprocess.call(["git"])
+        subprocess.call(["git"], stdout=subprocess.PIPE)
     except OSError as e:
         if e.errno == os.errno.ENOENT:
             print "Git Not Installed"
