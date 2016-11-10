@@ -1,5 +1,5 @@
 # GitHelp
-Python Script to help setting up Git and using Git
+Python Script to help setting up Git and using Git   
 **This script is experimental and I take no responsibility if this causes you to fuck up your Repositories**
 
 I made this script because I thought for some people git is pretty confusing so this should automate most needed tasks.
